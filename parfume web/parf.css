@@ -1,0 +1,345 @@
+body {
+    background-color: #fff;
+}
+.fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0/ 5%)
+}
+.navbar-nav .nav-item .nav-link{
+    background-color: transparent;
+    color: var(--text-white);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active .icon{
+    color: purple;
+}
+.nav-item .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    position: relative;
+    opacity: 0.7;
+}
+
+.home .home-banner-1{
+    background-image: url('assets/parf5.jpg');
+}
+.home .home-banner-2{
+    opacity: #00000092;
+    background-image: url('assets/parf15.jpg');
+}
+.home-banner-text{
+    align-items: center;
+    position: relative;
+    left: 10%;
+    top: 80px;
+}
+h1{
+    margin: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:75px;
+}
+.btn-danger{
+    background-color: rgb(33, 33, 33);
+    border-color: aliceblue;
+}
+.btn-danger:hover{
+    color: purple;;
+}
+#collections  .grid-item .card{
+    background-color: none;
+    width: 100%;
+    height: 25%;
+    margin-top: 1rem;
+    display: grid;
+    grid-row: inherit;
+    grid-area: span;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+#collections .grid-item .card {
+    margin-left: 2rem;
+    width: 30%;
+    height: 10%;
+    background-color:#fff;
+    border-radius: 0.5rem;
+    background-size: cover;
+    opacity: #000000d8;
+    padding: 1rem 1.5rem;
+    align-items: baseline;
+    display: flex;
+    float: left;
+   
+
+}
+
+.grid-item .card{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    opacity: 2.1;
+
+}
+.text-center {
+    align-items: center;
+    position: relative;
+    top:20%;
+}
+#button .btn-request{
+    background: rgb(33, 33, 33);
+    color: aliceblue;
+    min-width: 10px;
+    position: relative;
+    right: 95%;
+    top: 60px;
+}
+#button .btn-request:hover{
+    background-color: #fff;
+    color: #003;
+}
+
+span{
+    color: purple;
+}
+.grid-container{
+    justify-content: space-between;
+    column-gap: 20px;
+    height: 300px;
+    
+}
+.cards-title{
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+}
+#cards {
+    margin-top: 2rem;
+    margin-bottom: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40px;
+    max-height: 25%;
+}
+
+
+
+.card-img-top{
+    background-size: cover;
+    background-color:transparent;
+    max-width: 100%;
+    
+}
+.btn-primary{
+    background-color: #003;
+    color:#fff ;
+    border-color: #fff;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color:#003;
+}
+
+
+#home{
+    margin-top: 3.5rem;
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 1px 0 5px rgba(0,0,0,0.7);
+    width: 100%;
+    max-height: calc(100vh - 3.5rem);
+}
+
+.carousel-item img{
+    height: calc(100vh - 3.5rem);
+    width: 100%;
+}
+
+.carousel-item.card1{
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    background: rgba(11, 11, 11, 0.2) url("assets/parf5.jpg") no-repeat;
+    background-position: center;
+    background-size:cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.carousel-item.card1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+.carousel-item.card2{
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    background-image:url('assets/parf1.png');
+    background-color: rgba(11, 11, 11, 0.2);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1 h3{
+    text-align: center;
+}
+.btn-request{
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    color:#fff;
+    position: relative;
+    left:35%;
+    top: 20%;
+}
+.btn-request:hover{
+    background-color: #fff;
+    color: #003;
+}
+.carousel-item.card2::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(15, 13, 13, 0.285); */
+}
+ h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#row .col-md-4{
+    margin-top: 2rem;
+    margin-left: 3px;
+    display: inline-block;
+    inline-size: none;
+    justify-content:space-evenly;
+    align-items: center;  
+    position: relative; 
+}
+.pagination{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-dark {
+    margin-bottom: 0;
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    position: relative;
+    top: 100%;
+    bottom: 0;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+
+
+  
