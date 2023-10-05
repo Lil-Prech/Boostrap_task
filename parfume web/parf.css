@@ -96,7 +96,7 @@ h1{
 .text-center {
     align-items: center;
     position: relative;
-    top:20%;
+    top:50%;
 }
 #button .btn-request{
     background: rgb(33, 33, 33);
@@ -104,7 +104,7 @@ h1{
     min-width: 10px;
     position: relative;
     right: 95%;
-    top: 60px;
+    top: 100%;
 }
 #button .btn-request:hover{
     background-color: #fff;
@@ -213,7 +213,7 @@ h1 h3{
     color:#fff;
     position: relative;
     left:35%;
-    top: 20%;
+    top: 50%;
 }
 .btn-request:hover{
     background-color: #fff;
